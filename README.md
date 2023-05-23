@@ -18,7 +18,7 @@ Opti-JPEG is an image optimization tool that enables bulk resizing, compression,
 
 ## Usage
 
-1. Download the latest release from the [Releases](https://github.com/your-username/opti-jpeg/releases) page.
+1. Download the latest release from the [Releases](https://github.com/studiobloom/opti-jpeg/releases) page.
 2. Extract the contents of the release package.
 3. Run the `opti-jpeg.exe` executable.
 4. Choose the directory containing the images you want to optimize.
@@ -30,7 +30,7 @@ Opti-JPEG is an image optimization tool that enables bulk resizing, compression,
 
 ## Credits
 
-Opti-JPEG is created by John Large (aka bloom) and is available at [GitHub](https://github.com/your-username/opti-jpeg). Visit the [website](https://studiobloom.xyz) for more information and updates.
+Opti-JPEG is created by John Large (aka bloom) and is available at [GitHub](https://github.com/studiobloom/opti-jpeg). Visit the [website](https://studiobloom.xyz) for more information and updates.
 
 ## License
 
