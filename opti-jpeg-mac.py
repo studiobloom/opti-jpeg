@@ -69,10 +69,12 @@ def resize_and_convert(directory, max_dimension_size):
             if filename.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".bmp", ".heic", ".tiff", ".tif", ".webp")):
                 print(f"Processing image: {filename}")
                 img = Image.open(os.path.join(directory, filename))
+                img = img.convert("RGB")  # Convert image to RGB mode
                 img.thumbnail((max_dimension_size, max_dimension_size))
                 if "_opti" in filename:
-                    jpeg_filename = filename  
-                else:jpeg_filename = os.path.splitext(filename)[0] + "_opti.jpg"  
+                    jpeg_filename = filename
+                else:
+                    jpeg_filename = os.path.splitext(filename)[0] + "_opti.jpg"
 
                 img.save(os.path.join(directory, jpeg_filename), "JPEG", optimize=True)
                 print(f"Converted and optimized image to JPEG: {jpeg_filename}")
